@@ -1,13 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Craigslist Cincinnati</title>
    <link rel="stylesheet" href="reset.css">
    <link rel="stylesheet" href="main.css">
+   <script src="jquery-3.1.1.min.js"></script>
 </head>
-<body>
+
+ <header>
+   <h1><a href="index.html">Craigslist</a></h1>
+   <h2>Cincinnati</h2>
    
+ <!-- Hamburger Icon -->
+ <div class="hamburger" id="hamburger">
+   <span></span>
+   <span></span>
+   <span></span>
+ </div>
+
+ <!-- Side Menu -->
+ <nav class="side-menu" id="sideMenu">
+   <a href="#">Home</a>
+   <a href="#">Community</a>
+   <a href="#">Housing</a>
+   <a href="#">Jobs</a>
+   <a href="#">Services</a>
+   <a href="#">Forms</a>
+   <a href="#">Gigs</a>
+   <a href="#">Support</a>
+   <a href="#">FAQ</a>
+ </nav>
+
+</header>
+
+<script>
+const hamburger = document.getElementById('hamburger');
+const sideMenu = document.getElementById('sideMenu');
+
+hamburger.addEventListener('click', () => {
+  sideMenu.classList.toggle('open');
+});
+
+</script>
+
+<!-- search box -->
+<body>
+
+   <div class="search-container">
+      <input type="text" id="searchBar" placeholder="What Are You Searching For Today?">
+    </div>
+   
+
+
+
+   <div class="container">
+      <div class="card">
+        <img src="https://images.craigslist.org/00X0X_kTgRfF6n3zx_600x450.jpg" alt="Item">
+        <div class="card-body">
+          <h2>Specialized Crossroads Sport A Hybrid - $195</h2>
+          <p>Posted in Cincinnati, OH</p>
+          <a href="https://cincinnati.craigslist.org/bik/d/mason-specialized-crossroads-sport/7840038404.html">View Listing</a>
+        </div>
+      </div>
+
+      <div class="card">
+         <img src="https://images.craigslist.org/00X0X_kTgRfF6n3zx_600x450.jpg" alt="Item">
+         <div class="card-body">
+           <h2>Specialized Crossroads Sport A Hybrid - $195</h2>
+           <p>Posted in Cincinnati, OH</p>
+           <a href="https://cincinnati.craigslist.org/bik/d/mason-specialized-crossroads-sport/7840038404.html">View Listing</a>
+         </div>
+       </div>
+
+
+       <div class="card">
+         <img src="https://images.craigslist.org/00X0X_kTgRfF6n3zx_600x450.jpg" alt="Item">
+         <div class="card-body">
+           <h2>Specialized Crossroads Sport A Hybrid - $195</h2>
+           <p>Posted in Cincinnati, OH</p>
+           <a href="https://cincinnati.craigslist.org/bik/d/mason-specialized-crossroads-sport/7840038404.html">View Listing</a>
+         </div>
+       </div>
+
+       <div class="card">
+         <img src="https://images.craigslist.org/00X0X_kTgRfF6n3zx_600x450.jpg" alt="Item">
+         <div class="card-body">
+           <h2>Specialized Crossroads Sport A Hybrid - $195</h2>
+           <p>Posted in Cincinnati, OH</p>
+           <a href="https://cincinnati.craigslist.org/bik/d/mason-specialized-crossroads-sport/7840038404.html">View Listing</a>
+         </div>
+       </div>
+
+       <div class="card">
+         <img src="https://images.craigslist.org/00X0X_kTgRfF6n3zx_600x450.jpg" alt="Item">
+         <div class="card-body">
+           <h2>Specialized Crossroads Sport A Hybrid - $195</h2>
+           <p>Posted in Cincinnati, OH</p>
+           <a href="https://cincinnati.craigslist.org/bik/d/mason-specialized-crossroads-sport/7840038404.html">View Listing</a>
+         </div>
+       </div>
+    </div>
+
+    <main>
+<article class="accountbox">
+   <h2>Make An Account</h2>
+   <p>Create a free account and start selling or buying today!</p>
+   <img class="PNGaccount" src="images/account image.png" alt="Account Image Icon">
+</article>
+
+<article class="posting">
+   <h2>Make A Posting</h2>
+   <p>Create a new post</p>
+   <img class="PNGaccount" src="images/post icon.png" alt="Post Image Icon">
+</article>
+
+
+
+   </main>
+
+<footer>
+   <a href="#">Help</a> | <a href="#">Privacy</a> | <a href="#">Terms</a> | <a href="#">About</a> | <a href="#">Sitemap</a> | <a href="#">Safety </a> | 
+</footer>
+
+
 </body>
 </html>
